@@ -4,6 +4,7 @@
 2. Check `SCOPES` from `./src/index.js`. Currently, supporting `/auth/documents`, `/auth/drive` and `/auth/drive.file` scopes which are needed for google file and google doc manipulation.
 3. Get `credentials.json` by following step 1 on `https://developers.google.com/gmail/api/quickstart/nodejs`. Then move it into root folder of this project.
 4. Run `node src/index.js`.
+
     a. Browse to the provided URL in your web browser.
 
      If you are not already logged into your Google account, you will be prompted to log in. If you are logged into multiple Google accounts, you will be asked to select one account to use for the authorization.
